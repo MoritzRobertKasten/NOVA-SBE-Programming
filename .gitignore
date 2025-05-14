@@ -1,9 +1,36 @@
-# Ignore virtual environment
-venv/
-
-# Byte-compiled / cache
+# Python cache and bytecode files
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.pyc
 
-# VS Code settings (optional)
+# SQLite database files
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+
+# VS Code project settings
 .vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled files
+*.so
+
+# Jupyter Notebooks checkpoints (falls du welche nutzt)
+.ipynb_checkpoints/
+
+# Node modules (falls du npm z. B. für Chart.js lokal nutzt)
+node_modules/
+
+# dotenv / secrets (wenn du Umgebungsvariablen nutzt)
+.env
